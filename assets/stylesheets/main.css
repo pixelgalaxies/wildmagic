@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: #454545;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.container {
+  min-height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #b52929;
+  color: #fafafa;
+  font-size: 60px;
+  outline: none;
+  -webkit-box-shadow: 0 10px #5e1515;
+          box-shadow: 0 10px #5e1515;
+  border: transparent;
+  position: relative;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  top: 10px;
+}
+
+h1 {
+  padding: 15px;
+  color: #fafafa;
+}
+
+.overlay {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #000000;
+}
+
+.overlay p {
+  font-size: 28px;
+  color: #fafafa;
+  padding: 20px;
+}
+
+.overlay .rollNum {
+  font-size: 56px;
+}
+
+.overlay .closeIcon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
